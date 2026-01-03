@@ -3,7 +3,6 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 app = FastAPI(title="SentryHealth AI Engine")
-
 class HealthData(BaseModel):
     age: int
     systolic_bp: int
