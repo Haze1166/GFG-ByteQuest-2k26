@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #020617; /* Slate 950 */
+  color: #f8fafc;
+}
+
+body {
+  margin: 0;
+  overflow: hidden; /* We handle scrolling inside the app layout */
+}
+
+/* Glassmorphism Panel Utility */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.6); /* Slate 900 with opacity */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Specific Glow Effects for Text/Borders */
+.glow-text-green {
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
+}
+.glow-text-red {
+  text-shadow: 0 0 10px rgba(244, 63, 94, 0.5);
+}
+
+/* Custom Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
