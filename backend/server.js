@@ -9,20 +9,32 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
+// Connect to DB (creates file if missing)
 const db = new sqlite3.Database('./aegis.db', (err) => {
   if (err) console.error(err.message);
   else console.log('✅ Connected to SQLite database.');
 });
 
 const parseCSV = (filePath) => {
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  const lines = fileContent.trim().split('\n');
-  return lines.slice(1).map(line => line.split(','));
+  try {
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const lines = fileContent.trim().split('\n');
+    return lines.slice(1).map(line => line.split(','));
+  } catch (error) {
+    console.error(`Error reading CSV: ${filePath}`, error);
+    return [];
+  }
 };
 
 db.serialize(() => {
-  // 1. UPDATED PATIENTS TABLE SCHEMA
-  db.run(`CREATE TABLE IF NOT EXISTS patients (
+  console.log("🔄 Initializing Database...");
+
+  // 1. DROP Tables (Clean Slate)
+  db.run("DROP TABLE IF EXISTS patients");
+  db.run("DROP TABLE IF EXISTS vitals");
+
+  // 2. CREATE Tables
+  db.run(`CREATE TABLE patients (
     id TEXT PRIMARY KEY,
     name TEXT,
     age INTEGER,
@@ -34,7 +46,7 @@ db.serialize(() => {
     diagnosis TEXT
   )`);
 
-  db.run(`CREATE TABLE IF NOT EXISTS vitals (
+  db.run(`CREATE TABLE vitals (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     patient_id TEXT,
     month TEXT,
@@ -42,49 +54,57 @@ db.serialize(() => {
     insulin REAL
   )`);
 
-  // SEED PATIENTS
-  db.get("SELECT count(*) as count FROM patients", (err, row) => {
-    if (row.count === 0) {
-      console.log("📂 Seeding 300 Patients...");
-      const patients = parseCSV(path.join(__dirname, 'data', 'patients.csv'));
-      const stmt = db.prepare("INSERT INTO patients VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-      patients.forEach(r => {
-        // Ensure types match Schema
-        stmt.run(r[0], r[1], parseInt(r[2]), r[3], parseInt(r[4]), parseInt(r[5]), parseInt(r[6]), parseFloat(r[7]), r[8]);
-      });
-      stmt.finalize();
+  // 3. SEED Data (Use INSERT OR REPLACE to fix duplicate ID crash)
+  console.log("📂 Seeding Patients...");
+  const patients = parseCSV(path.join(__dirname, 'data', 'patients.csv'));
+  const stmtPatients = db.prepare("INSERT OR REPLACE INTO patients VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+  
+  db.run("BEGIN TRANSACTION");
+  patients.forEach(r => {
+    if (r.length >= 9) {
+      stmtPatients.run(r[0], r[1], parseInt(r[2]), r[3], parseInt(r[4]), parseInt(r[5]), parseInt(r[6]), parseFloat(r[7]), r[8]);
     }
   });
+  stmtPatients.finalize();
+  db.run("COMMIT");
 
-  // SEED VITALS
-  db.get("SELECT count(*) as count FROM vitals", (err, row) => {
-    if (row.count === 0) {
-      console.log("📂 Seeding Longitudinal Vitals...");
-      const vitals = parseCSV(path.join(__dirname, 'data', 'vitals.csv'));
-      const stmt = db.prepare("INSERT INTO vitals (patient_id, month, glucose, insulin) VALUES (?, ?, ?, ?)");
-      vitals.forEach(r => stmt.run(r[0], r[1], parseInt(r[2]), parseFloat(r[3])));
-      stmt.finalize();
+  console.log("📂 Seeding Vitals...");
+  const vitals = parseCSV(path.join(__dirname, 'data', 'vitals.csv'));
+  const stmtVitals = db.prepare("INSERT OR REPLACE INTO vitals (patient_id, month, glucose, insulin) VALUES (?, ?, ?, ?)");
+  
+  db.run("BEGIN TRANSACTION");
+  vitals.forEach(r => {
+    if (r.length >= 4) {
+      stmtVitals.run(r[0], r[1], parseInt(r[2]), parseFloat(r[3]));
     }
   });
+  stmtVitals.finalize();
+  db.run("COMMIT");
+  
+  console.log("✨ Database Ready.");
 });
 
-// API: Get Random Patient (For Demo Purpose)
+// --- API ENDPOINTS ---
+
 app.get('/api/patient/random', (req, res) => {
-  // Get a random ID from the list to simulate picking a patient
   db.get("SELECT id FROM patients ORDER BY RANDOM() LIMIT 1", (err, row) => {
-    if(row) res.json({ id: row.id });
+    if (err) return res.status(500).json({ error: err.message });
+    if (row) res.json({ id: row.id });
+    else res.status(404).json({ error: "No patients found" });
   });
 });
 
 app.get('/api/patient/:id', (req, res) => {
   db.get("SELECT * FROM patients WHERE id = ?", [req.params.id], (err, row) => {
-    if (err) return res.status(400).json({error: err.message});
+    if (err) return res.status(400).json({ error: err.message });
+    if (!row) return res.status(404).json({ error: "Patient not found" });
     res.json({ ...row, riskProbability: row.healthScore < 70 ? 84 : 12 });
   });
 });
 
 app.get('/api/vitals/:id', (req, res) => {
   db.all("SELECT month, glucose, insulin FROM vitals WHERE patient_id = ?", [req.params.id], (err, rows) => {
+    if (err) return res.status(400).json({ error: err.message });
     res.json(rows);
   });
 });
@@ -92,9 +112,12 @@ app.get('/api/vitals/:id', (req, res) => {
 app.post('/api/chat', (req, res) => {
   const { message } = req.body;
   let reply = "Processing...";
-  if (message.toLowerCase().includes('cortisol')) reply = "Cortisol levels are elevated (22 ug/dL). This blunts insulin sensitivity.";
-  else if (message.toLowerCase().includes('hrv')) reply = "HRV is critically low (28ms). Suggests sympathetic nervous system overdrive.";
-  else reply = "Aegis AI is analyzing the metabolic vector. Ask about 'Cortisol' or 'HRV'.";
+  const lowerMsg = message.toLowerCase();
+  
+  if (lowerMsg.includes('cortisol')) reply = "Cortisol levels are elevated. This blunts insulin sensitivity.";
+  else if (lowerMsg.includes('hrv')) reply = "HRV is critically low. Suggests sympathetic nervous system overdrive.";
+  else if (lowerMsg.includes('protocol')) reply = "Suggested Protocol: 1. Magnesium Glycinate (400mg). 2. Zone 2 Cardio (45m).";
+  else reply = "Aegis AI is analyzing the metabolic vector. Ask about 'Cortisol', 'HRV', or 'Protocol'.";
   
   setTimeout(() => res.json({ 
     id: Date.now().toString(), sender: 'ai', text: reply, 
@@ -102,4 +125,6 @@ app.post('/api/chat', (req, res) => {
   }), 800);
 });
 
-app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
+});
