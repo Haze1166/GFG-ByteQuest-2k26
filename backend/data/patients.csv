@@ -1,0 +1,301 @@
+id,name,age,gender,healthScore,cortisol,hrv,sleepAvg,diagnosis
+AEG-5686,Mary Smith,54,Female,65,26,41,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-5832,Elizabeth Brown,31,Female,58,20,41,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-7154,Barbara Davis,52,Female,48,24,19,4.1,Type 2 Diabetes / Hypertension
+AEG-2377,Thomas Miller,33,Male,74,21,36,6.0,Pre-Diabetes & Adrenal Fatigue
+AEG-8933,William Miller,43,Male,74,20,36,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-7649,Linda Garcia,22,Female,87,7,77,8.5,Optimal Metabolic Function
+AEG-3403,Barbara Davis,44,Female,62,23,32,5.6,Pre-Diabetes & Adrenal Fatigue
+AEG-5456,Susan Brown,36,Female,96,7,61,8.7,Optimal Metabolic Function
+AEG-3995,John Davis,30,Male,86,9,65,8.8,Optimal Metabolic Function
+AEG-2404,Jennifer Miller,32,Female,53,19,48,6.5,Pre-Diabetes & Adrenal Fatigue
+AEG-1217,Elizabeth Williams,32,Female,94,12,70,7.9,Optimal Metabolic Function
+AEG-9368,Richard Johnson,41,Male,99,10,96,8.0,Optimal Metabolic Function
+AEG-5634,Michael Williams,33,Male,96,7,88,7.1,Optimal Metabolic Function
+AEG-1284,Jennifer Smith,39,Female,90,6,63,7.7,Optimal Metabolic Function
+AEG-7198,David Garcia,44,Male,70,28,45,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-8418,Robert Smith,30,Male,74,25,30,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-5380,Mary Smith,38,Female,67,23,30,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-8781,Karen Williams,71,Female,28,17,27,4.8,Type 2 Diabetes / Hypertension
+AEG-9769,Jennifer Williams,37,Female,93,10,94,8.9,Optimal Metabolic Function
+AEG-8568,Jennifer Garcia,56,Female,27,19,18,5.5,Type 2 Diabetes / Hypertension
+AEG-2848,Charles Brown,38,Male,99,9,67,8.6,Optimal Metabolic Function
+AEG-3774,Joseph Miller,31,Male,98,6,70,7.7,Optimal Metabolic Function
+AEG-3205,Jennifer Davis,27,Female,98,12,98,8.6,Optimal Metabolic Function
+AEG-5492,Mary Johnson,61,Female,38,16,24,5.2,Type 2 Diabetes / Hypertension
+AEG-1078,Thomas Miller,24,Male,86,6,73,8.2,Optimal Metabolic Function
+AEG-5922,Linda Williams,51,Female,46,22,22,4.7,Type 2 Diabetes / Hypertension
+AEG-4274,John Brown,60,Male,47,23,16,5.6,Type 2 Diabetes / Hypertension
+AEG-6500,John Miller,56,Male,36,22,27,4.5,Type 2 Diabetes / Hypertension
+AEG-9280,William Miller,44,Male,85,7,88,7.6,Optimal Metabolic Function
+AEG-5070,Richard Williams,40,Male,94,8,71,7.4,Optimal Metabolic Function
+AEG-9719,Linda Jones,72,Female,27,25,24,4.9,Type 2 Diabetes / Hypertension
+AEG-9894,Barbara Jones,22,Female,93,9,64,8.1,Optimal Metabolic Function
+AEG-2799,Jennifer Garcia,58,Female,44,22,23,5.8,Type 2 Diabetes / Hypertension
+AEG-8981,Elizabeth Jones,64,Female,40,22,29,5.4,Type 2 Diabetes / Hypertension
+AEG-4096,Thomas Williams,21,Male,89,7,72,7.7,Optimal Metabolic Function
+AEG-5764,Barbara Garcia,27,Female,89,10,66,8.1,Optimal Metabolic Function
+AEG-5208,Barbara Brown,34,Female,52,23,34,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-6129,Robert Smith,41,Male,56,24,40,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-1033,Michael Miller,21,Male,98,12,74,8.4,Optimal Metabolic Function
+AEG-7825,Elizabeth Miller,55,Female,62,19,36,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-5119,Joseph Smith,59,Male,33,15,24,4.8,Type 2 Diabetes / Hypertension
+AEG-1717,Karen Smith,29,Female,91,7,73,8.8,Optimal Metabolic Function
+AEG-1909,Michael Jones,36,Male,98,8,84,7.0,Optimal Metabolic Function
+AEG-5219,James Garcia,25,Male,90,10,96,8.2,Optimal Metabolic Function
+AEG-2608,Thomas Smith,55,Male,65,27,34,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-3319,Jessica Smith,37,Female,96,10,83,8.7,Optimal Metabolic Function
+AEG-3359,Michael Williams,23,Male,94,12,78,7.7,Optimal Metabolic Function
+AEG-9093,Patricia Smith,42,Female,67,27,47,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-6103,David Smith,27,Male,99,11,97,7.5,Optimal Metabolic Function
+AEG-1562,Jennifer Miller,69,Female,23,21,25,5.0,Type 2 Diabetes / Hypertension
+AEG-5860,Mary Williams,37,Female,89,11,72,7.3,Optimal Metabolic Function
+AEG-9776,Barbara Jones,33,Female,90,8,66,7.6,Optimal Metabolic Function
+AEG-6350,Jessica Williams,27,Female,90,8,74,8.8,Optimal Metabolic Function
+AEG-3770,David Davis,43,Male,73,21,45,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-4428,Michael Johnson,49,Male,32,20,19,5.0,Type 2 Diabetes / Hypertension
+AEG-5343,David Davis,39,Male,93,9,88,8.0,Optimal Metabolic Function
+AEG-1126,John Brown,70,Male,48,21,26,4.3,Type 2 Diabetes / Hypertension
+AEG-6907,Elizabeth Garcia,75,Female,23,22,19,5.1,Type 2 Diabetes / Hypertension
+AEG-1164,Charles Brown,33,Male,87,12,87,8.1,Optimal Metabolic Function
+AEG-1755,Susan Miller,71,Female,47,18,22,6.0,Type 2 Diabetes / Hypertension
+AEG-2045,Linda Garcia,31,Female,92,10,85,7.3,Optimal Metabolic Function
+AEG-9506,Robert Johnson,38,Male,67,24,46,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-2976,Karen Jones,72,Female,20,23,30,4.5,Type 2 Diabetes / Hypertension
+AEG-3712,Thomas Smith,32,Male,94,12,64,7.7,Optimal Metabolic Function
+AEG-4002,Richard Williams,42,Male,66,25,47,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-3469,Charles Miller,29,Male,95,6,85,7.3,Optimal Metabolic Function
+AEG-7992,Elizabeth Williams,51,Female,34,22,30,5.1,Type 2 Diabetes / Hypertension
+AEG-1799,Michael Smith,63,Male,25,24,15,5.7,Type 2 Diabetes / Hypertension
+AEG-4469,Mary Johnson,24,Female,93,9,94,7.7,Optimal Metabolic Function
+AEG-2149,Joseph Johnson,62,Male,24,22,25,4.3,Type 2 Diabetes / Hypertension
+AEG-4741,David Williams,61,Male,27,20,24,4.4,Type 2 Diabetes / Hypertension
+AEG-5498,Richard Garcia,30,Male,97,10,66,8.0,Optimal Metabolic Function
+AEG-2051,David Garcia,42,Male,95,7,81,7.5,Optimal Metabolic Function
+AEG-3685,Susan Jones,41,Female,92,11,84,8.6,Optimal Metabolic Function
+AEG-2819,Barbara Miller,46,Female,36,19,29,5.3,Type 2 Diabetes / Hypertension
+AEG-1703,Jennifer Brown,29,Female,95,10,88,8.5,Optimal Metabolic Function
+AEG-1301,John Brown,35,Male,86,7,78,8.0,Optimal Metabolic Function
+AEG-3386,Mary Williams,35,Female,86,8,76,8.0,Optimal Metabolic Function
+AEG-3299,Patricia Johnson,61,Female,48,20,30,4.1,Type 2 Diabetes / Hypertension
+AEG-4491,Charles Miller,74,Male,38,21,22,4.6,Type 2 Diabetes / Hypertension
+AEG-7905,Robert Jones,45,Male,89,10,62,7.9,Optimal Metabolic Function
+AEG-5037,Linda Smith,32,Female,97,10,64,8.5,Optimal Metabolic Function
+AEG-3269,Linda Jones,24,Female,85,6,72,8.0,Optimal Metabolic Function
+AEG-1338,Joseph Johnson,42,Male,88,10,70,7.4,Optimal Metabolic Function
+AEG-8427,David Jones,57,Male,46,19,18,4.0,Type 2 Diabetes / Hypertension
+AEG-1554,Thomas Smith,37,Male,98,10,74,8.9,Optimal Metabolic Function
+AEG-4841,James Jones,74,Male,45,21,23,4.4,Type 2 Diabetes / Hypertension
+AEG-8706,William Davis,57,Male,43,20,25,5.7,Type 2 Diabetes / Hypertension
+AEG-9513,Richard Jones,61,Male,36,18,17,4.0,Type 2 Diabetes / Hypertension
+AEG-1284,Thomas Miller,20,Male,91,11,83,7.9,Optimal Metabolic Function
+AEG-7072,Linda Garcia,42,Female,56,25,46,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-9512,Susan Davis,22,Female,95,9,70,8.3,Optimal Metabolic Function
+AEG-9486,Joseph Davis,67,Male,43,16,24,5.1,Type 2 Diabetes / Hypertension
+AEG-9418,Linda Davis,22,Female,89,9,94,7.9,Optimal Metabolic Function
+AEG-5194,Susan Williams,54,Female,74,25,41,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-6604,Karen Garcia,60,Female,46,25,29,5.2,Type 2 Diabetes / Hypertension
+AEG-4171,John Johnson,30,Male,66,22,39,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-8946,David Williams,37,Male,96,9,77,7.2,Optimal Metabolic Function
+AEG-9802,Sarah Davis,60,Female,23,16,28,5.0,Type 2 Diabetes / Hypertension
+AEG-9567,Susan Garcia,45,Female,85,6,88,7.6,Optimal Metabolic Function
+AEG-7655,Thomas Brown,43,Male,52,28,47,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-1632,Sarah Garcia,33,Female,87,9,65,7.2,Optimal Metabolic Function
+AEG-1065,Elizabeth Miller,74,Female,38,24,27,5.0,Type 2 Diabetes / Hypertension
+AEG-4608,James Garcia,24,Male,99,11,75,7.6,Optimal Metabolic Function
+AEG-3824,Jessica Garcia,20,Female,85,11,76,8.7,Optimal Metabolic Function
+AEG-9287,Jennifer Jones,34,Female,95,7,68,7.7,Optimal Metabolic Function
+AEG-4474,Thomas Johnson,35,Male,63,28,37,6.7,Pre-Diabetes & Adrenal Fatigue
+AEG-9471,John Brown,51,Male,75,21,37,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-6505,James Jones,36,Male,64,18,43,6.5,Pre-Diabetes & Adrenal Fatigue
+AEG-9704,James Williams,32,Male,86,11,64,8.6,Optimal Metabolic Function
+AEG-2178,Thomas Garcia,71,Male,41,20,23,5.7,Type 2 Diabetes / Hypertension
+AEG-4869,David Davis,33,Male,95,11,94,8.1,Optimal Metabolic Function
+AEG-7677,Robert Jones,44,Male,95,11,73,7.5,Optimal Metabolic Function
+AEG-2617,Sarah Johnson,41,Female,75,19,30,6.0,Pre-Diabetes & Adrenal Fatigue
+AEG-7543,Jessica Davis,36,Female,90,8,71,8.6,Optimal Metabolic Function
+AEG-7376,Sarah Williams,59,Female,41,20,20,4.5,Type 2 Diabetes / Hypertension
+AEG-2106,Patricia Jones,48,Female,58,25,45,6.7,Pre-Diabetes & Adrenal Fatigue
+AEG-2859,William Garcia,45,Male,44,19,22,5.3,Type 2 Diabetes / Hypertension
+AEG-3587,Elizabeth Smith,50,Female,38,15,21,4.9,Type 2 Diabetes / Hypertension
+AEG-7994,Robert Garcia,40,Male,55,22,40,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-6170,Charles Smith,47,Male,68,20,40,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-3241,John Garcia,68,Male,27,19,23,4.1,Type 2 Diabetes / Hypertension
+AEG-8951,Sarah Johnson,37,Female,96,9,100,8.1,Optimal Metabolic Function
+AEG-2442,Charles Brown,36,Male,63,19,37,6.0,Pre-Diabetes & Adrenal Fatigue
+AEG-1800,Robert Garcia,44,Male,60,27,34,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-6334,Karen Miller,37,Female,85,9,98,7.8,Optimal Metabolic Function
+AEG-3285,Michael Johnson,50,Male,59,24,35,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-4889,Karen Williams,70,Female,35,25,25,5.8,Type 2 Diabetes / Hypertension
+AEG-7644,Elizabeth Davis,68,Female,21,20,19,5.7,Type 2 Diabetes / Hypertension
+AEG-4330,James Jones,75,Male,48,18,23,5.2,Type 2 Diabetes / Hypertension
+AEG-1981,Richard Johnson,35,Male,52,18,44,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-5923,James Smith,50,Male,38,15,30,4.4,Type 2 Diabetes / Hypertension
+AEG-8427,Susan Jones,21,Female,90,9,72,7.7,Optimal Metabolic Function
+AEG-5399,Linda Davis,32,Female,51,22,39,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-2516,David Garcia,26,Male,89,6,75,8.5,Optimal Metabolic Function
+AEG-4807,Richard Davis,40,Male,98,6,83,8.3,Optimal Metabolic Function
+AEG-2549,Mary Johnson,35,Female,96,9,83,7.8,Optimal Metabolic Function
+AEG-7486,Charles Jones,24,Male,86,8,66,8.4,Optimal Metabolic Function
+AEG-5123,Karen Davis,27,Female,93,11,72,7.0,Optimal Metabolic Function
+AEG-4542,Linda Smith,57,Female,32,17,24,4.7,Type 2 Diabetes / Hypertension
+AEG-3923,Barbara Williams,75,Female,24,23,27,5.4,Type 2 Diabetes / Hypertension
+AEG-2396,John Davis,22,Male,95,9,69,7.4,Optimal Metabolic Function
+AEG-8258,Sarah Smith,44,Female,58,24,46,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-9679,David Jones,55,Male,31,19,23,5.9,Type 2 Diabetes / Hypertension
+AEG-2442,Joseph Brown,32,Male,55,28,38,5.5,Pre-Diabetes & Adrenal Fatigue
+AEG-2765,Charles Miller,55,Male,73,22,33,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-6144,David Williams,41,Male,98,9,95,8.2,Optimal Metabolic Function
+AEG-1699,Patricia Smith,66,Female,38,23,15,4.5,Type 2 Diabetes / Hypertension
+AEG-6667,James Garcia,33,Male,59,28,30,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-7375,Karen Davis,73,Female,44,21,26,5.4,Type 2 Diabetes / Hypertension
+AEG-7141,Jennifer Davis,59,Female,29,23,23,4.5,Type 2 Diabetes / Hypertension
+AEG-3047,Jennifer Williams,49,Female,74,22,37,6.0,Pre-Diabetes & Adrenal Fatigue
+AEG-8482,Susan Jones,53,Female,53,23,34,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-6812,Jennifer Brown,53,Female,66,25,33,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-5061,James Smith,67,Male,27,22,24,5.1,Type 2 Diabetes / Hypertension
+AEG-7742,William Davis,34,Male,74,28,31,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-4190,James Brown,49,Male,24,15,15,4.2,Type 2 Diabetes / Hypertension
+AEG-6128,Linda Brown,24,Female,91,9,67,8.7,Optimal Metabolic Function
+AEG-9677,David Garcia,66,Male,22,15,27,5.5,Type 2 Diabetes / Hypertension
+AEG-5728,Robert Smith,48,Male,70,23,42,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-2465,Charles Johnson,36,Male,90,6,80,7.5,Optimal Metabolic Function
+AEG-7796,Karen Williams,36,Female,92,10,100,8.3,Optimal Metabolic Function
+AEG-9241,Jennifer Williams,39,Female,90,9,96,8.7,Optimal Metabolic Function
+AEG-2528,Karen Williams,52,Female,41,25,22,5.7,Type 2 Diabetes / Hypertension
+AEG-4658,Mary Johnson,53,Female,60,19,50,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-4789,Charles Johnson,44,Male,92,11,60,8.5,Optimal Metabolic Function
+AEG-7749,Jessica Garcia,43,Female,97,7,61,7.4,Optimal Metabolic Function
+AEG-8931,Charles Smith,32,Male,95,11,75,8.9,Optimal Metabolic Function
+AEG-8117,Linda Brown,54,Female,48,16,21,4.5,Type 2 Diabetes / Hypertension
+AEG-6177,Jennifer Smith,33,Female,92,11,100,7.2,Optimal Metabolic Function
+AEG-1351,Robert Davis,68,Male,48,16,27,5.3,Type 2 Diabetes / Hypertension
+AEG-7060,Barbara Jones,59,Female,35,23,17,5.4,Type 2 Diabetes / Hypertension
+AEG-4818,Robert Williams,66,Male,30,19,17,4.7,Type 2 Diabetes / Hypertension
+AEG-3851,Karen Williams,28,Female,89,10,68,7.8,Optimal Metabolic Function
+AEG-5953,Elizabeth Smith,33,Female,59,19,35,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-7850,Sarah Brown,36,Female,85,11,74,7.8,Optimal Metabolic Function
+AEG-5913,William Williams,49,Male,75,19,50,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-2432,David Jones,25,Male,89,10,94,8.1,Optimal Metabolic Function
+AEG-7989,Sarah Johnson,64,Female,29,24,17,5.7,Type 2 Diabetes / Hypertension
+AEG-4281,Barbara Davis,45,Female,37,25,15,5.0,Type 2 Diabetes / Hypertension
+AEG-8610,Joseph Smith,40,Male,98,6,98,7.2,Optimal Metabolic Function
+AEG-6419,Susan Davis,42,Female,55,27,42,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-6058,Richard Brown,68,Male,30,24,19,5.6,Type 2 Diabetes / Hypertension
+AEG-3914,Patricia Williams,45,Female,96,7,100,8.9,Optimal Metabolic Function
+AEG-3479,Charles Smith,21,Male,89,7,85,8.5,Optimal Metabolic Function
+AEG-6758,Robert Jones,42,Male,98,7,72,7.6,Optimal Metabolic Function
+AEG-1243,Patricia Davis,62,Female,44,23,25,4.8,Type 2 Diabetes / Hypertension
+AEG-1266,Karen Williams,45,Female,62,24,36,6.7,Pre-Diabetes & Adrenal Fatigue
+AEG-3711,Joseph Miller,53,Male,63,19,31,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-3619,Sarah Davis,63,Female,28,22,17,5.9,Type 2 Diabetes / Hypertension
+AEG-1652,Sarah Williams,40,Female,75,21,49,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-4152,Patricia Brown,35,Female,54,24,36,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-5352,Richard Davis,24,Male,93,9,60,7.3,Optimal Metabolic Function
+AEG-1061,Thomas Jones,52,Male,44,22,25,5.3,Type 2 Diabetes / Hypertension
+AEG-1085,Jessica Williams,53,Female,68,19,43,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-3225,James Brown,75,Male,44,25,17,4.4,Type 2 Diabetes / Hypertension
+AEG-7451,Karen Garcia,31,Female,95,8,97,8.3,Optimal Metabolic Function
+AEG-7099,Richard Miller,30,Male,62,18,34,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-3543,Michael Jones,34,Male,89,8,68,8.2,Optimal Metabolic Function
+AEG-9526,William Smith,26,Male,88,9,99,7.3,Optimal Metabolic Function
+AEG-1051,David Garcia,21,Male,93,10,100,7.8,Optimal Metabolic Function
+AEG-7896,William Johnson,46,Male,74,22,46,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-9077,John Garcia,44,Male,93,11,74,8.3,Optimal Metabolic Function
+AEG-8332,Thomas Johnson,44,Male,54,18,33,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-6540,Patricia Jones,63,Female,33,20,20,5.8,Type 2 Diabetes / Hypertension
+AEG-7908,Joseph Johnson,33,Male,61,23,43,6.5,Pre-Diabetes & Adrenal Fatigue
+AEG-6254,Richard Johnson,41,Male,89,7,71,7.0,Optimal Metabolic Function
+AEG-5257,Robert Jones,31,Male,95,7,87,7.3,Optimal Metabolic Function
+AEG-4062,Linda Johnson,38,Female,71,21,46,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-4773,Charles Davis,36,Male,92,10,72,8.4,Optimal Metabolic Function
+AEG-2244,Jennifer Brown,45,Female,66,18,33,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-1954,Susan Williams,49,Female,30,19,29,5.6,Type 2 Diabetes / Hypertension
+AEG-8358,Joseph Brown,43,Male,54,26,50,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-8249,Elizabeth Davis,46,Female,53,24,47,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-2991,William Garcia,48,Male,57,26,46,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-7045,Susan Johnson,37,Female,67,27,38,6.4,Pre-Diabetes & Adrenal Fatigue
+AEG-6538,Linda Smith,42,Female,54,24,49,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-4074,Michael Miller,37,Male,60,24,37,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-6805,Robert Brown,20,Male,94,12,69,7.5,Optimal Metabolic Function
+AEG-6227,Linda Williams,55,Female,47,15,17,5.0,Type 2 Diabetes / Hypertension
+AEG-3192,Karen Smith,49,Female,64,28,41,5.5,Pre-Diabetes & Adrenal Fatigue
+AEG-1679,Richard Jones,38,Male,62,19,40,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-3976,William Johnson,54,Male,63,22,37,6.5,Pre-Diabetes & Adrenal Fatigue
+AEG-3913,Michael Garcia,35,Male,67,24,31,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-7064,Michael Davis,33,Male,99,9,80,7.0,Optimal Metabolic Function
+AEG-1156,Susan Johnson,38,Female,88,12,68,7.2,Optimal Metabolic Function
+AEG-4593,Susan Garcia,36,Female,98,8,94,9.0,Optimal Metabolic Function
+AEG-8002,Michael Davis,23,Male,88,7,88,8.3,Optimal Metabolic Function
+AEG-5394,Elizabeth Garcia,46,Female,67,19,46,6.7,Pre-Diabetes & Adrenal Fatigue
+AEG-2795,Linda Williams,52,Female,62,22,34,6.8,Pre-Diabetes & Adrenal Fatigue
+AEG-2832,Patricia Garcia,49,Female,48,23,23,4.1,Type 2 Diabetes / Hypertension
+AEG-2465,Karen Jones,41,Female,90,11,63,7.3,Optimal Metabolic Function
+AEG-3603,John Davis,25,Male,87,8,69,7.7,Optimal Metabolic Function
+AEG-9684,Patricia Davis,72,Female,23,21,15,4.3,Type 2 Diabetes / Hypertension
+AEG-2834,Joseph Garcia,40,Male,86,8,61,7.2,Optimal Metabolic Function
+AEG-2156,David Garcia,55,Male,52,28,30,5.6,Pre-Diabetes & Adrenal Fatigue
+AEG-2520,Mary Smith,45,Female,86,9,90,7.8,Optimal Metabolic Function
+AEG-4955,Michael Smith,50,Male,66,22,49,5.8,Pre-Diabetes & Adrenal Fatigue
+AEG-5890,Joseph Brown,33,Male,63,18,39,6.5,Pre-Diabetes & Adrenal Fatigue
+AEG-4760,Susan Jones,45,Female,74,22,42,6.4,Pre-Diabetes & Adrenal Fatigue
+AEG-2460,Joseph Miller,39,Male,51,20,47,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-3801,Mary Johnson,24,Female,98,8,68,7.8,Optimal Metabolic Function
+AEG-6367,Jessica Brown,38,Female,85,8,65,7.4,Optimal Metabolic Function
+AEG-4275,John Jones,71,Male,20,21,30,4.3,Type 2 Diabetes / Hypertension
+AEG-6533,Elizabeth Garcia,42,Female,54,27,50,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-4599,Robert Miller,64,Male,32,21,25,5.4,Type 2 Diabetes / Hypertension
+AEG-4902,John Johnson,23,Male,96,6,64,8.5,Optimal Metabolic Function
+AEG-6945,Elizabeth Garcia,48,Female,66,21,43,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-9201,Joseph Brown,29,Male,91,11,75,8.7,Optimal Metabolic Function
+AEG-3146,Charles Smith,47,Male,57,25,41,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-1328,Jennifer Jones,49,Female,59,28,39,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-8859,Susan Garcia,42,Female,85,6,63,7.9,Optimal Metabolic Function
+AEG-2513,Jennifer Williams,34,Female,92,9,94,7.5,Optimal Metabolic Function
+AEG-7356,Karen Johnson,36,Female,92,6,87,7.8,Optimal Metabolic Function
+AEG-2481,Jessica Brown,44,Female,67,24,46,5.7,Pre-Diabetes & Adrenal Fatigue
+AEG-4417,Joseph Johnson,41,Male,98,11,96,7.6,Optimal Metabolic Function
+AEG-5834,Richard Jones,24,Male,93,10,71,8.6,Optimal Metabolic Function
+AEG-2304,Karen Johnson,30,Female,53,20,45,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-9865,David Miller,50,Male,54,21,33,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-3833,Mary Miller,63,Female,47,17,23,5.8,Type 2 Diabetes / Hypertension
+AEG-5174,Barbara Miller,39,Female,64,27,45,6.5,Pre-Diabetes & Adrenal Fatigue
+AEG-6180,Mary Smith,54,Female,44,25,23,5.4,Type 2 Diabetes / Hypertension
+AEG-9351,John Brown,52,Male,21,23,16,4.5,Type 2 Diabetes / Hypertension
+AEG-1901,Patricia Johnson,55,Female,69,21,39,6.1,Pre-Diabetes & Adrenal Fatigue
+AEG-5178,Karen Brown,33,Female,86,10,97,8.6,Optimal Metabolic Function
+AEG-2137,Susan Davis,37,Female,73,26,41,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-9656,Thomas Garcia,20,Male,89,6,82,9.0,Optimal Metabolic Function
+AEG-9941,Joseph Smith,45,Male,93,6,61,8.1,Optimal Metabolic Function
+AEG-6158,Michael Miller,34,Male,62,28,48,6.2,Pre-Diabetes & Adrenal Fatigue
+AEG-9573,William Davis,20,Male,94,11,96,8.5,Optimal Metabolic Function
+AEG-6939,Sarah Johnson,27,Female,97,10,70,8.3,Optimal Metabolic Function
+AEG-1235,Thomas Williams,42,Male,75,22,34,5.5,Pre-Diabetes & Adrenal Fatigue
+AEG-6119,Robert Garcia,43,Male,97,11,66,7.9,Optimal Metabolic Function
+AEG-2978,William Williams,47,Male,44,25,15,5.7,Type 2 Diabetes / Hypertension
+AEG-8170,Richard Davis,44,Male,97,8,67,7.4,Optimal Metabolic Function
+AEG-9834,James Johnson,74,Male,43,22,17,5.1,Type 2 Diabetes / Hypertension
+AEG-4194,Michael Davis,43,Male,99,10,74,8.6,Optimal Metabolic Function
+AEG-3946,James Jones,38,Male,62,27,36,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-5753,Sarah Davis,73,Female,20,16,29,5.1,Type 2 Diabetes / Hypertension
+AEG-4253,Karen Jones,56,Female,38,18,18,5.7,Type 2 Diabetes / Hypertension
+AEG-9417,Patricia Smith,20,Female,99,11,69,8.8,Optimal Metabolic Function
+AEG-9134,Susan Brown,36,Female,86,11,70,8.6,Optimal Metabolic Function
+AEG-6859,Jessica Johnson,36,Female,73,28,44,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-1722,Elizabeth Williams,52,Female,47,23,23,5.0,Type 2 Diabetes / Hypertension
+AEG-6209,Susan Brown,33,Female,86,10,97,7.1,Optimal Metabolic Function
+AEG-2367,Elizabeth Smith,29,Female,93,12,62,8.9,Optimal Metabolic Function
+AEG-2289,John Davis,48,Male,57,18,31,5.9,Pre-Diabetes & Adrenal Fatigue
+AEG-2973,Charles Miller,29,Male,90,11,61,8.6,Optimal Metabolic Function
+AEG-5511,John Smith,37,Male,87,7,84,8.8,Optimal Metabolic Function
+AEG-8639,John Williams,44,Male,93,7,88,7.8,Optimal Metabolic Function
+AEG-5831,James Jones,36,Male,90,10,61,8.2,Optimal Metabolic Function
+AEG-7396,Richard Davis,46,Male,61,20,50,6.4,Pre-Diabetes & Adrenal Fatigue
+AEG-2511,Robert Miller,42,Male,86,7,97,8.4,Optimal Metabolic Function
+AEG-9623,Thomas Davis,42,Male,88,9,87,7.5,Optimal Metabolic Function
+AEG-3420,Sarah Davis,51,Female,49,21,17,4.6,Type 2 Diabetes / Hypertension
+AEG-5647,Sarah Jones,38,Female,64,24,39,6.3,Pre-Diabetes & Adrenal Fatigue
+AEG-4658,Michael Jones,43,Male,95,11,93,7.5,Optimal Metabolic Function
+AEG-4465,Linda Williams,42,Female,85,7,62,8.8,Optimal Metabolic Function
+AEG-9512,Joseph Johnson,40,Male,59,24,34,6.6,Pre-Diabetes & Adrenal Fatigue
+AEG-6413,Sarah Davis,31,Female,90,8,99,8.6,Optimal Metabolic Function
